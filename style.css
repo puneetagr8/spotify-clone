@@ -1,0 +1,57 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color:white;
+}
+
+nav ul li{
+    padding:0 12px;
+}
+
+.container{
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin:12px auto;
+    border-radius: 14px;
+    padding: 20px;
+    background-image: url('background2.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.Bottom{
+    position:sticky;
+    height:100px;
+    background-color: black;
+    color:white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.myIcons{
+    margin:12px 0;
+}
+
+.myIcons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width:80vw;
+}
